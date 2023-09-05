@@ -1,1 +1,1 @@
-Here you need to download the bert-base-cased model
+Download the bert-base-cased model from https://drive.google.com/file/d/1U-IN-LW8bug4nPsgCuYm79p-plMMuk1K/view?usp=sharing and uncompress it here.
