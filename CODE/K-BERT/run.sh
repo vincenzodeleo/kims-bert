@@ -29,7 +29,7 @@ LEARNING_RATE="5e-06"  ## K-bert needs a lower learning rate than usual
 SEQ_LENGTH=250 #250 ## number of tokens for each sentence, use 200 with NoKG
 #KG_NAME=NoKG.spo ## Knowlege graph with no triples. used to test plain BERT in conjunction with --no_vm
 #KG_NAME=KG_from_ScholarlyDataset_and_CSOclassifier_for_KBert.spo
-KG_NAME=KG_3cols_OK.spo
+KG_NAME=KG_3cols.spo
 #VM_OPTION="--no_vm" ## don't use visible matrix
 
 #SEQ_LENGTH=512 #number of tokens for each sentence use 512 when applying triple ingestion because the texts length will increase (max = 512 for Bert limitations)
