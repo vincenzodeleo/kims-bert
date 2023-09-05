@@ -41,10 +41,7 @@ KG_PATH="brain/kgs/${KG_NAME}"
 RANDOM_SEED=200  ## set random seed or comment this line if you want a different random seed for each experiment execution below
 
 echo "Starting..."
-#for MAX_TRAIN_SIZE in 9000;do
-#for MAX_TRAIN_SIZE in `seq 9000 3000 12000`;do
-#for MAX_TRAIN_SIZE in `seq 3000 3000 12000`;do
-for MAX_TRAIN_SIZE in 3000;do
+for MAX_TRAIN_SIZE in `seq 3000 3000 21000`;do
     MAX_DEV_SIZE=1500 #$(($MAX_TRAIN_SIZE/5))
     MAX_TEST_SIZE=1500 #$(($MAX_TRAIN_SIZE/5))
 
