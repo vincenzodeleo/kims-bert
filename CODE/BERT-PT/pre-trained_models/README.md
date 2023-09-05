@@ -1,0 +1,1 @@
+Download the bert-base-uncased-cso_v3.3-mask model from https://drive.google.com/file/d/18nNNUNDbqMt--P3fO3OFlxYIHlbAVm3B/view?usp=sharing and uncompress it here.
